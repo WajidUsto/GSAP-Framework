@@ -26,14 +26,15 @@
 // })
 var tl = gsap.timeline()
 tl.from("h2",{
-    y:-30,
+    x:20,
     opacity:0,
     duration:1,
     delay:0.7,
 })
 
 tl.from("#h4 h4",{
-    y:-30,
+    // y:-30,
+    x:20,
     duration:1,
     opacity:0,
     stagger:0.3,
