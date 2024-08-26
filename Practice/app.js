@@ -28,25 +28,27 @@ var tl = gsap.timeline()
 tl.from("h3",{
     y:-20,
     opacity:0,
-    duration:1,
+    duration:0.5,
     delay:0.7,
 })
 
 tl.from("#h4 h4",{
     y:-20,
-    duration:1,
+    duration:0.5,
     opacity:0,
     stagger:0.3,
 })
 tl.from("h1",{
-    y:-20,
+    x:-20,
     duration:0.5,
     opacity:0,
+    color:"white",
 })
 tl.from("h2",{
-    y:-20,
+    x:20,
     duration:0.5,
     opacity:0,
+    color:"white",
 })
 
 
