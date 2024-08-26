@@ -6,15 +6,15 @@
 //     backgroundColor :"white",
 //     borderRadius:"35%",
 // })
-gsap.to("#box2",{
-    x:1000,
-    duration:1,
-    delay:1,
-    rotate:360,
-    yoyo: true,
-    repeat:-1,
-    backgroundColor:"black",
-})
+// gsap.to("#box2",{
+//     x:1000,
+//     duration:1,
+//     delay:1,
+//     rotate:360,
+//     yoyo: true,
+//     repeat:-1,
+//     backgroundColor:"black",
+// })
 
 
 // gsap.from("h1",{
@@ -24,3 +24,19 @@ gsap.to("#box2",{
 //     y:30,
 //     stagger:0.3,
 // })
+var tl = gsap.timeline()
+tl.from("h2",{
+    y:-30,
+    opacity:0,
+    duration:1,
+    delay:0.7,
+})
+
+tl.from("#h4 h4",{
+    y:-30,
+    duration:1,
+    opacity:0,
+    stagger:0.3,
+})
+
+
