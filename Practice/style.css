@@ -37,3 +37,18 @@ nav{
     align-items: center;
     gap: 50px;
 }
+h3{
+    font-size: 30px;
+}
+main{
+    display: grid;
+    place-items: center;
+    margin-top: 10%;
+}
+h1{
+    font-size: 60px;
+}
+h2{
+    font-size: 40px;
+    color: gray;
+}
