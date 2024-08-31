@@ -52,3 +52,19 @@
 // })
 
 
+
+gsap.from("#page1 #box",{
+    duration:2,
+    delay:1,
+    // scale:0,
+    rotate:360,
+})
+
+
+gsap.from("#page2 #box",{
+    duration:2,
+    delay:1,
+    scale:50
+})
+
+
