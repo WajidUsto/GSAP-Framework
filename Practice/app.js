@@ -53,68 +53,70 @@
 
 
 
-gsap.from("#page1 h1",{
-    duration:2,
-    delay:1,
-    x:500,
-    opacity:0
-})
-
-gsap.from("#page1 h2",{
-    duration:2,
-    delay:1,
-    x:-500,
-    opacity:0,
-})
-
-gsap.from("#page2 h1",{
-    duration:2,
-    y:-100,
-    opacity:0,
-    scrollTrigger:{
-        opacity:0,
-        trigger:"#page2 h1",
-        scroller:"body",
-        markers:true,
-        start:"top 50%",
-    }
-})
-gsap.from("#page2 p",{
-    duration:2,
-    y:5,
-    opacity:0,
-    scrollTrigger:{
-        opacity:0,
-        trigger:"#page2 p",
-        scroller:"body",
-        markers:true,
-        start:"top 50%",
-    }
-})
-
-
-
-
-
-
-
-
-
-
-
-
-
-// gsap.from("#page2 #box",{
+// gsap.from("#page1 h1",{
 //     duration:2,
-//     scale:0,
-//     rotate:360,
-//     // scrollTrigger:"#page2 #box",
+//     delay:1,
+//     x:500,
+//     opacity:0
+// })
+
+// gsap.from("#page1 h2",{
+//     duration:2,
+//     delay:1,
+//     x:-500,
+//     opacity:0,
+// })
+
+// gsap.from("#page2 h1",{
+//     duration:2,
+//     y:-100,
+//     opacity:0,
 //     scrollTrigger:{
-//         trigger:"#page2 #box",
+//         opacity:0,
+//         trigger:"#page2 h1",
 //         scroller:"body",
 //         markers:true,
-//         start:"top 60%"
+//         start:"top 50%",
 //     }
 // })
+// gsap.from("#page2 p",{
+//     duration:2,
+//     y:5,
+//     opacity:0,
+//     scrollTrigger:{
+//         opacity:0,
+//         trigger:"#page2 p",
+//         scroller:"body",
+//         markers:true,
+//         start:"top 50%",
+//     }
+// })
+
+
+
+
+
+
+
+
+
+
+
+
+
+gsap.from("#page2 #box",{
+    duration:2,
+    scale:0,
+    rotate:760,
+    // scrollTrigger:"#page2 #box",
+    scrollTrigger:{
+        trigger:"#page2 #box",
+        scroller:"body",
+        markers:true,
+        start:"top 60%",
+        end:"top 20%",
+        scrub:2
+    }
+})
 
 
