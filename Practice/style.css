@@ -1,5 +1,5 @@
 *{
-    /* background-color: black; */
+    background-color: black;
     padding: 0;
     margin: 0;
     box-sizing: border-box;
@@ -105,6 +105,12 @@ h2{
 
 
 .svg {
-    background-color: red;
+    /* background-color: red; */
+    height: 200px;
     width: 100%;
+}
+
+
+svg {
+    /* background-color: red; */
 }
