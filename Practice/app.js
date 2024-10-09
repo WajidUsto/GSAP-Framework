@@ -47,7 +47,7 @@
 // tl.from("h2",{
 //     x:20,
 //     duration:0.5,
-//     opacity:0,
+//     opacity:0b
 //     color:"white",
 // })
 
@@ -93,6 +93,20 @@
 // })
 
 
+// gsap.from("#page2 #box",{
+//     duration:2,
+//     scale:0,
+//     rotate:760,
+//     // scrollTrigger:"#page2 #box",
+//     scrollTrigger:{
+//         trigger:"#page2 #box",
+//         scroller:"body",
+//         markers:true,
+//         start:"top 60%",
+//         end:"top 20%",
+//         scrub:2
+//     }
+// })
 
 
 
@@ -104,19 +118,20 @@
 
 
 
-gsap.from("#page2 #box",{
-    duration:2,
-    scale:0,
-    rotate:760,
-    // scrollTrigger:"#page2 #box",
-    scrollTrigger:{
-        trigger:"#page2 #box",
-        scroller:"body",
-        markers:true,
-        start:"top 60%",
-        end:"top 20%",
-        scrub:2
-    }
-})
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
