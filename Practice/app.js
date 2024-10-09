@@ -118,7 +118,36 @@
 
 
 
-let initialPath = `M 20 100 Q 250 20 550 100`
+let initialPath = `M 20 100 Q 0 100 990 100`
+
+
+let finalPath = `M 20 100 Q 0 100 990 100`
+
+let svg = document.querySelector(".string")
+
+
+svg.addEventListener("mousemove",function (dets) {
+    // console.log("Mouse Enter" , dets);
+
+    initialPath = `M 20 100 Q 420 ${dets.y} 990 100`
+    // console.log(initialPath);
+    
+
+    gsap.to("svg path",{
+        attr: {d:initialPath},
+        duration : 0.3,
+        ease : "power3.out",
+    })
+    
+}) 
+svg.addEventListener("mouseleave",function () {
+    
+    gsap.to("svg path" , {
+        attr : {d:finalPath},
+        duration : 0.3,
+        ease : "bounce.out",
+    })
+})
 
 
 
