@@ -1,5 +1,6 @@
 let cursor = document.querySelector("#cursor")
 let main = document.querySelector("#main")
+let img = document.querySelector("#image")
 
 
 main.addEventListener("mousemove",function (dets) {
@@ -10,6 +11,9 @@ main.addEventListener("mousemove",function (dets) {
         duration:0.8,
     })
 })
+
+
+
 
 
 

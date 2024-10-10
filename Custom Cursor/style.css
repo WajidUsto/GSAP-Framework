@@ -9,8 +9,6 @@ body{
     width: 100%;
 }
 
-
-
 #main {
     height: 100%;
     width: 100%;
@@ -19,8 +17,6 @@ body{
     justify-content: center;
     align-items: center;
 }
-
-
 #cursor {
     width: 15px;
     height: 15px;
@@ -28,13 +24,6 @@ body{
     border-radius: 30px;
     position: fixed;
 }
-
-
-
-
-
-
-
 
 #image img{
     width: 60vw;
