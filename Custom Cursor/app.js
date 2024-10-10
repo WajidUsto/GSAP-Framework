@@ -7,7 +7,11 @@ main.addEventListener("mousemove",function (dets) {
         x: dets.x,
         y: dets.y,
         ease:"back.out",
-        duration:1,
+        duration:0.8,
     })
 })
+
+
+
+
 
