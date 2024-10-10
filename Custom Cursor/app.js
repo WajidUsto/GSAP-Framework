@@ -26,6 +26,7 @@ img.addEventListener("mouseleave",function () {
     cursor.innerHTML = ""
     gsap.to(cursor,{
         scale : 1,
+        duration : 1
     })
 })
 
