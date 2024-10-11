@@ -25,4 +25,9 @@ body{
     font-size: 3rem;
     font-weight: 600;
     letter-spacing: 0.5px;
+    display: inline-block;
+}
+
+#main {
+    overflow: hidden;
 }
