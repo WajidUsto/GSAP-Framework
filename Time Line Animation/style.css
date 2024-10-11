@@ -38,7 +38,7 @@ body{
     position: absolute;
     top: 0;
     right: 0;
-    width: 40%;
+    width: 30%;
     height: 100%;
     background-color: rgba(255, 255, 255, 0.178);
     backdrop-filter: blur(30px);
@@ -51,6 +51,20 @@ body{
     padding: 0 30px;
 }
 
-#sidebar h4{
-    font-size: 1.8rem;
+#sidebar h3{
+    font-size: 1.6rem;
+    font-weight: 600;
+    cursor: pointer;
 }
+#sidebar i{
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    font-size: 12px;
+    background-color: white;
+    border-radius: 50px;
+    padding: 5px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
