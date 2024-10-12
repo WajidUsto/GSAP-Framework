@@ -31,6 +31,7 @@ body{
     align-items: center;
     line-height: 0.3rem;
     font-weight: 600;
+    mix-blend-mode: difference;
     z-index: 9;
 }
 
@@ -48,4 +49,10 @@ body{
     width: 60vw;
     height: 50vh;
     z-index: 10;
+}
+
+#text h1{
+    font-size: 4rem;
+    color: white;
+    
 }
