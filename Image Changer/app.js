@@ -7,13 +7,10 @@ elem.addEventListener("mousemove",function (dets) {
     gsap.to(elemimg,{
     x : dets.x,
     y : dets.y,
-    duration : 0.5
+    duration : 0.5,
+    transform : "translate(-50% , -50%)"
     })
-//     // console.log(dets);
-
-
-    // elemimg.style.left = dets.x+"px"
-    // elemimg.style.top = dets.y+"px"
+    
 })
 
 
@@ -27,7 +24,7 @@ elem.addEventListener("mouseenter",function () {
 elem.addEventListener("mouseleave",function () {
     gsap.to(elemimg,{
     opacity : 0,
-    duration : 0.5
+    duration : 0
     })
 
 })
