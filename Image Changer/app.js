@@ -24,7 +24,9 @@ elem.addEventListener("mouseenter",function () {
 elem.addEventListener("mouseleave",function () {
     gsap.to(elemimg,{
     opacity : 0,
-    duration : 0
+    duration : 0.5,
+    scale : 0,
+    rotate : "-20"
     })
 
 })
